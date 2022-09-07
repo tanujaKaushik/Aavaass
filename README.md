@@ -1,4 +1,4 @@
-###This project focuses on building a solution for the process of renting home, flats, etc. connecting potential tenants and landlords without any intermediate source created using ReactJS and Tailwind CSS. Here landlords have the hte rights to create, edit and delete their post whereas tenants can view the posts and if interested can communicate further with the landlord.
+This project focuses on building a solution for the process of renting home, flats, etc. connecting potential tenants and landlords without any intermediate source created using ReactJS and Tailwind CSS. Here landlords have the hte rights to create, edit and delete their post whereas tenants can view the posts and if interested can communicate further with the landlord.
 
 # Working of Aavaas
 
