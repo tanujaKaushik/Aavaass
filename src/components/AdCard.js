@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function AdCard(props){
     return(
-        <div className="flex p-6 font-mono">
+        <>
+        <div className="flex p-6 font-mono my-10">
         <div className="flex-none w-48 mb-10 relative z-10 before:absolute before:top-1 before:left-1 before:w-full before:h-full before:bg-blue-300">
-            <img src={`${props.image}`} alt="image" className="absolute z-10 inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
+            <img src={`${props.image}`} alt="" className="absolute z-10 inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
         </div>
         <form className="flex-auto pl-6">
             <div className="relative flex flex-wrap items-baseline pb-6 before:bg-black before:absolute before:-top-6 before:bottom-0 before:-left-60 before:-right-6">
@@ -34,9 +36,9 @@ export default function AdCard(props){
                 <button className="px-6 h-12 uppercase font-semibold tracking-wider border-2 border-black bg-blue-900 text-white" type="submit">
                 Interested
                 </button>
-                <button className="px-6 h-12 uppercase font-semibold tracking-wider border border-slate-200 text-slate-900" type="button">
+                <Link to={`${props.details}`}><button className="px-6 h-12 uppercase font-semibold tracking-wider border border-slate-200 text-slate-900" type="button">
                 View Details
-                </button>
+                </button></Link>
             </div>
             <button className="flex-none flex items-center justify-center w-12 h-12 text-black" type="button" aria-label="Like">
                 <svg width="20" height="20" fill="currentColor" aria-hidden="true">
@@ -44,10 +46,11 @@ export default function AdCard(props){
                 </svg>
             </button>
             </div>
-            <p className="text-xs leading-6 text-slate-500">
+            {/* <p className="text-xs leading-6 text-slate-500">
             Free shipping on all continental US orders.
-            </p>
+            </p> */}
         </form>
         </div>
+    </>
     )
 }

@@ -5,7 +5,8 @@
     margin-left:15vw;
 }
 .cont{
-    background-color: bisque;
+    /* background-color: rgb(191 219 254);rgb(191 219 254); */
+    background: linear-gradient(to right, rgb(96 165 250), rgb(191 219 254),rgb(147 197 253)) ;
     margin-top: -5vh;
     padding-top:10vh ;
     height: 95vh;

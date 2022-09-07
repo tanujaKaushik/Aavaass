@@ -30,7 +30,7 @@ body{
     list-style: none;
 }
 .navigation ul li:hover{
-    background-color: #373764;
+    background-color: #dadaef;
     border-radius: 20px;
 }
 .navigation a{

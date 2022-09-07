@@ -1,18 +1,19 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './HomePage.css';
 
 export default function HomePage(){
     return(
         <>
         <video autoPlay loop className="back-video" muted plays-inline>
-            <source src="Images/bg-video.mp4" type="video/mp4"/>
+            <source src="Images/bgVideo.mp4" type="video/mp4"/>
         </video>
 
         <div className='container'>
             <div className="overlay">
                 <h1>Let's Get Started.</h1>
                 <h4>with your journey of finding "HOME"</h4>
-                <a href="/signUp"><button>Get Started</button></a>
+                <Link to="/signUp"><button>Get Started</button></Link>
             </div>
         </div>
         

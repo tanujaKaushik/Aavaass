@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "Tanuja Kaushik",
+      "phone": " ",
+      "city": "Ballabgarh",
+      "state": "Punjab",
+      "address": "Shastri Nagar",
+      "photo": "house.png",
+      "features": " fgr",
+      "pin": "348292",
+      "price": "666666",
+      "id": 3
+    },
+    {
+      "name": "nikita",
+      "phone": " ",
+      "city": "manesar",
+      "state": "Haryana",
+      "address": "kamla nagar",
+      "photo": "house.png",
+      "features": "food ",
+      "pin": "548722",
+      "price": "4000",
+      "id": 4
+    },
+    {
+      "name": " akshita",
+      "phone": "8922473843",
+      "city": " gurgaon",
+      "state": "Haryana",
+      "address": " rajeev nagar",
+      "photo": " Images/home.jpg",
+      "features": " ac, wifi, seperate washroom, 4 times meal",
+      "pin": "122052",
+      "price": "2000",
+      "id": 5
+    },
+    {
+      "name": " Sumit Kaushik",
+      "phone": "7642682864",
+      "city": "Faridabad",
+      "state": "Haryana",
+      "address": " Kamlesh Nagar ",
+      "photo": " ",
+      "features": " ac, wifi,",
+      "pin": "653162",
+      "price": "400000",
+      "id": 6
+    }
+  ]
+}

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 import './SignUp.css';
 
 export default function SignUpPage(){
     return(
         <>
         <div className="cont">
-        <img className="hello_img" src="Images/signup.png"/>
+        <img className="hello_img" src="Images/signup.png" alt=""/>
 
         <div className="forms">
         <input type="checkbox" id="chk" aria-hidden="true"/>
@@ -24,7 +25,7 @@ export default function SignUpPage(){
                         <label className="radio" for="landlord">Landlord</label>
                     </div>
 
-                    <a href="dashboard.html"><button className="btn" type="submit">Signup</button></a>
+                    <Link to="/dashboard"><button className="btn" type="submit">Signup</button></Link>
                 </form>
             </div>
 
@@ -35,8 +36,8 @@ export default function SignUpPage(){
                     <input type="email" name="" placeholder="Enter E-mail"  required=""/>
                     <input type="password" name="" placeholder="Enter your password"  required=""/>
                     <input type="password" name="" placeholder="Re-enter your password"  required=""/>
-                    <a href="dashboard.html"><button type="submit" className="btn">Login</button></a>
-                    <p><a href="">Forgot Password ?</a></p>
+                    <Link to="/dashboard"><button type="submit" className="btn">Login</button></Link>
+                    <p><Link to="/">Forgot Password ?</Link></p>
                 </form>
             </div>
         </div>
