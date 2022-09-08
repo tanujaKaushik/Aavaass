@@ -1,6 +1,6 @@
 import React, {useState, useEffect}from 'react';
 import {Link} from 'react-router-dom';
-import './Dashboard.css';
+import './css/Dashboard.css';
 import axios from 'axios';
 
 export default function DashboardPage(){
